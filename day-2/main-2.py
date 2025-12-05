@@ -21,18 +21,6 @@ def main():
             if dodgy_re.fullmatch(str_repr):
                 print(f"found dodgy number: {str_repr}")
                 result += value
-       #     len_str = len(str_repr)
-       #     l_slice = str_repr[0:len_str//2]
-       #     r_slice = str_repr[-1 * len_str//2:]
-       #     if len_str >= 2:
-       #         if l_slice == r_slice:
-       #             print(f"found dodgy number: {str_repr}")
-       #             result += value
-       
-       # Continue to extra id verification logic
-
-
-
 
     print(f"Result: {result}")
 
